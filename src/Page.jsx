@@ -30,6 +30,9 @@ function NavBar({ user, onUserChange }) {
         <LinkContainer to="/report">
           <NavItem>Report</NavItem>
         </LinkContainer>
+        <LinkContainer to="/calendar">
+          <NavItem>Calendar</NavItem>
+        </LinkContainer>
       </Nav>
       <Col sm={5}>
         <Navbar.Form>
