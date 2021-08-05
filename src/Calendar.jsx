@@ -3,6 +3,7 @@ import store from './store.js';
 import graphQLFetch from './graphQLFetch.js';
 
 export default class Calendar extends React.Component {
+  
   render() {
     return (
       <div>
@@ -11,3 +12,4 @@ export default class Calendar extends React.Component {
     );
   }
 }
+

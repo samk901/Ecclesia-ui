@@ -10,8 +10,8 @@ const routes = [
   { path: '/edit/:id', component: IssueEdit },
   { path: '/report', component: IssueReport },
   { path: '/about', component: About },
-  { path: '*', component: NotFound },
   { path: '/calendar', component: Calendar },
+  { path: '*', component: NotFound },
 ];
 
 export default routes;
