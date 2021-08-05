@@ -18,14 +18,14 @@ function NavBar({ user, onUserChange }) {
   return (
     <Navbar>
       <Navbar.Header>
-        <Navbar.Brand>Issue Tracker</Navbar.Brand>
+        <Navbar.Brand>Ecclesia</Navbar.Brand>
       </Navbar.Header>
       <Nav>
         <LinkContainer exact to="/">
           <NavItem>Home</NavItem>
         </LinkContainer>
         <LinkContainer to="/issues">
-          <NavItem>Issue List</NavItem>
+          <NavItem>Contacts</NavItem>
         </LinkContainer>
         <LinkContainer to="/report">
           <NavItem>Report</NavItem>
@@ -60,7 +60,7 @@ function Footer() {
       <p className="text-center">
         Full source code available at this
         {' '}
-        <a href="https://github.com/tonymullen/ProMERNStackBook">
+        <a href="https://github.com/samk901/EcclesiaWebApp.git">
           GitHub repository
         </a>
       </p>
