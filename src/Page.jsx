@@ -114,7 +114,7 @@ export default class Page extends React.Component {
     if (user == null) return null;
     return (
       <div>
-        <NavBar user={user} onUserChange={this.onUserChange} />
+        <NavBar bg="dark" user={user} onUserChange={this.onUserChange} />
         <Grid fluid>
           <UserContext.Provider value={user}>
             <Contents />
