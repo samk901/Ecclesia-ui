@@ -13,6 +13,7 @@ export default function template(body, initialData, userData) {
     table.table-hover tr {cursor: pointer;}
     .panel-title a {display: block; width: 100%; cursor: pointer;}
   </style>
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 <!-- Page generated from template. -->
