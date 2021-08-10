@@ -16,7 +16,7 @@ import SignInNavItem from './SignInNavItem.jsx';
 
 function NavBar({ user, onUserChange }) {
   return (
-    <Navbar bg="dark">
+    <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>Ecclesia</Navbar.Brand>
       </Navbar.Header>
@@ -114,7 +114,7 @@ export default class Page extends React.Component {
     if (user == null) return null;
     return (
       <div>
-        <NavBar bg="dark" user={user} onUserChange={this.onUserChange} />
+        <NavBar inverse user={user} onUserChange={this.onUserChange} />
         <Grid fluid>
           <UserContext.Provider value={user}>
             <Contents />
