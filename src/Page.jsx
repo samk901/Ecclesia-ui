@@ -16,7 +16,7 @@ import SignInNavItem from './SignInNavItem.jsx';
 
 function NavBar({ user, onUserChange }) {
   return (
-    <Navbar>
+    <Navbar inverse>
       <Navbar.Header>
         <Navbar.Brand>Ecclesia</Navbar.Brand>
       </Navbar.Header>
