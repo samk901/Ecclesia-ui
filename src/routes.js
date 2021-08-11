@@ -4,14 +4,14 @@ import IssueEdit from './IssueEdit.jsx';
 import About from './About.jsx';
 import NotFound from './NotFound.jsx';
 // eslint-disable-next-line import/no-named-as-default
-import Calendar from './Calendar.jsx';
+import ShowCalendar from './Calendar.jsx';
 
 const routes = [
   { path: '/issues/:id?', component: IssueList },
   { path: '/edit/:id', component: IssueEdit },
   { path: '/report', component: IssueReport },
   { path: '/about', component: About },
-  { path: '/calendar', component: Calendar },
+  { path: '/calendar', component: ShowCalendar },
   { path: '*', component: NotFound },
 ];
 

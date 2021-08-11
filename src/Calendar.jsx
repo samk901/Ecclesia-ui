@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
-// eslint-disable-next-line react/prefer-stateless-function
-export default class Calendar extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>Placeholder for Calendar</h2>
+export default function ShowCalendar() {
+  const [value, onChange] = useState(new Date());
+
+  return (
+    <div className="Sample">
+      <header>
+        <h1> Calendar Sample Page</h1>
+      </header>
+      <div className="Sample__container">
+        <main className="Sample__container__content">
+          <Calendar
+            onChange={onChange}
+            showWeekNumbers
+            value={value}
+          />
+        </main>
       </div>
-    );
-  }
+    </div>
+  );
 }
