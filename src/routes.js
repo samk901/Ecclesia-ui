@@ -3,7 +3,7 @@ import IssueReport from './IssueReport.jsx';
 import IssueEdit from './IssueEdit.jsx';
 import About from './About.jsx';
 import NotFound from './NotFound.jsx';
-import Calendar from './Calendar.jsx';
+import ContactCalendar from './ContactCalendar.jsx';
 import Homepage from './Homepage.jsx';
 // eslint-disable-next-line import/no-named-as-default
 
@@ -12,7 +12,7 @@ const routes = [
   { path: '/edit/:id', component: IssueEdit },
   { path: '/report', component: IssueReport },
   { path: '/about', component: About },
-  { path: '/calendar', component: Calendar },
+  { path: '/calendar', component: ContactCalendar },
   { path: '/homepage', component: Homepage },
   { path: '*', component: NotFound },
 ];
