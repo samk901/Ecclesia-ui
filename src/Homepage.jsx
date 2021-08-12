@@ -1,3 +1,4 @@
+/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 
 export default class Homepage extends React.Component {
@@ -6,7 +7,6 @@ export default class Homepage extends React.Component {
       <div className="text-center">
         <h3>Placeholder for Homepage</h3>
       </div>
-    )
+    );
   }
 }
-
