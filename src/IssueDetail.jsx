@@ -1,6 +1,4 @@
 import React from 'react';
-import store from './store.js';
-import graphQLFetch from './graphQLFetch.js';
 
 export default function IssueDetail({ issue }) {
   if (issue) {
