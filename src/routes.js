@@ -4,6 +4,7 @@ import IssueEdit from './IssueEdit.jsx';
 import About from './About.jsx';
 import NotFound from './NotFound.jsx';
 import Calendar from './Calendar.jsx';
+import Homepage from './Homepage.jsx';
 // eslint-disable-next-line import/no-named-as-default
 
 const routes = [
@@ -12,6 +13,7 @@ const routes = [
   { path: '/report', component: IssueReport },
   { path: '/about', component: About },
   { path: '/calendar', component: Calendar },
+  { path: '/homepage', component: Homepage },
   { path: '*', component: NotFound },
 ];
 
