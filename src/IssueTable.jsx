@@ -96,11 +96,11 @@ export default function IssueTable({ issues, closeIssue, deleteIssue }) {
         <tr>
           <th>ID</th>
           <th>Status</th>
-          <th>Owner</th>
-          <th>Created</th>
+          <th>Name</th>
+          <th>Joined</th>
           <th>Effort</th>
           <th>Due Date</th>
-          <th>Title</th>
+          <th>Description</th>
           <th>Action</th>
         </tr>
       </thead>

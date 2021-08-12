@@ -1,8 +1,9 @@
+/* eslint-disable react/self-closing-comp */
 import React from 'react';
 import {
   Navbar, Nav, NavItem, NavDropdown,
   MenuItem, Glyphicon,
-  Grid, Col,
+  Grid, Col, Image,
 } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
@@ -19,7 +20,7 @@ function NavBar({ user, onUserChange }) {
     <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          Ecclesia
+          <Image src="images/ecclesialogo.png" alt="Ecclesia" width="100" height="400" responsive />
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>
