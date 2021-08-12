@@ -15,7 +15,7 @@ export default function template(body, initialData, userData) {
     table.table-hover tr {cursor: pointer;}
     .panel-title a {display: block; width: 100%; cursor: pointer;}
   </style>
-  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootswatch.css">
 </head>
 <body>
 <!-- Page generated from template. -->
