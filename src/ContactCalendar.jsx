@@ -7,7 +7,7 @@ export default class ContactCalendar extends React.Component {
     return (
       <div>
         <header>
-          <h1>React-Calendar Sample Page</h1>
+          <h1>Calendar for Scheduling Meetings</h1>
         </header>
         <Calendar />
       </div>
