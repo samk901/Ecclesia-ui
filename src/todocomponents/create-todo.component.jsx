@@ -46,20 +46,20 @@ export default class CreateTodo extends React.Component {
   render() {
     return (
       <div className="form-wrapper">
-        <Form>
+        <Form onSubmit={this.onSubmit}>
           <Form.Group controlId="Name">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" />
+            <Form.Control type="text" value={this.state.name} onChange={this.onChangeTodoName} />
           </Form.Group>
 
           <Form.Group controlId="Email">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" />
+            <Form.Control type="email" value={this.state.email} onChange={this.onChangeTodoEmail} />
           </Form.Group>
 
           <Form.Group controlId="Number">
             <Form.Label>Phone Number</Form.Label>
-            <Form.Control type="text" />
+            <Form.Control type="text" value={this.state.number} onChange={this.onChangeTodoEmail} />
           </Form.Group>
 
           <Button variant="danger" size="lg" block="block" type="submit">
