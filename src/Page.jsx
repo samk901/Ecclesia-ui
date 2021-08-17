@@ -20,7 +20,7 @@ function NavBar({ user, onUserChange }) {
     <Navbar>
       <Navbar.Header>
         <Navbar.Brand>
-          <Image src="images/ecclesialogo.png" alt="Ecclesia" width="100" height="400" responsive />
+          <Image src="images/finallogo.png" alt="Ecclesia" width="100" height="400" responsive />
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>

@@ -9,21 +9,21 @@ export default class Homepage extends React.Component {
         <h3>Welcome to Ecclesia</h3>
         <Carousel>
           <Carousel.Item>
-            <img width={900} height={800} alt="900x500" src="/carousel.png" />
+            <img width={900} height={800} alt="900x500" src="images/community.png" />
             <Carousel.Caption>
               <h3>Manage Your Contact List</h3>
               <p>Keeping track of new members is key for building relationships.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={900} height={800} alt="900x500" src="/carousel.png" />
+            <img width={900} height={800} alt="900x500" src="images/contact-list.png" />
             <Carousel.Caption>
               <h3>Todo Contact List</h3>
               <p>Store, Add, Update and Delete your list of people to connect with.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img width={900} height={800} alt="900x500" src="/carousel.png" />
+            <img width={900} height={800} alt="900x500" src="images/calendar.png" />
             <Carousel.Caption>
               <h3>Ecclesia Calendar</h3>
               <p>Keep track of your appointments, phone calls and meetings.</p>
