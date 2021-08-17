@@ -175,7 +175,7 @@ class IssueEdit extends React.Component {
               </Col>
             </FormGroup>
             <FormGroup>
-              <Col componentClass={ControlLabel} sm={3}>Owner</Col>
+              <Col componentClass={ControlLabel} sm={3}>Name</Col>
               <Col sm={9}>
                 <FormControl
                   componentClass={TextInput}
@@ -202,7 +202,7 @@ class IssueEdit extends React.Component {
               invalidFields.due ? 'error' : null
             }
             >
-              <Col componentClass={ControlLabel} sm={3}>Due</Col>
+              <Col componentClass={ControlLabel} sm={3}>Last Contacted</Col>
               <Col sm={9}>
                 <FormControl
                   componentClass={DateInput}
@@ -216,7 +216,7 @@ class IssueEdit extends React.Component {
               </Col>
             </FormGroup>
             <FormGroup>
-              <Col componentClass={ControlLabel} sm={3}>Title</Col>
+              <Col componentClass={ControlLabel} sm={3}>Description</Col>
               <Col sm={9}>
                 <FormControl
                   componentClass={TextInput}
@@ -229,7 +229,7 @@ class IssueEdit extends React.Component {
               </Col>
             </FormGroup>
             <FormGroup>
-              <Col componentClass={ControlLabel} sm={3}>Description</Col>
+              <Col componentClass={ControlLabel} sm={3}>Action</Col>
               <Col sm={9}>
                 <FormControl
                   componentClass={TextInput}

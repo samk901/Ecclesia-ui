@@ -3,6 +3,33 @@ import React from 'react';
 import { Form, Button } from 'react-bootstrap';
 
 export default class CreateTodo extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.onChangeTodoName = this.onChangeTodoName.bind(this);
+    this.onChangeTodoEmail = this.onChangeTodoEmail.bind(this);
+    this.onChangeTodoNumber = this.onChangeToDoNumber.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+
+    this.state = {
+      name: '',
+      email: '',
+      number: '',
+    };
+  }
+
+  onChangeTodoName(e) {
+    this.setState({ name: e.target.value });
+  }
+
+  onChangeTodoEmail(e) {
+    this.setState({ email: e.target.value });
+  }
+
+  onChangeTodoNumber(e) {
+    this.setState({ number: e.target.value });
+  }
+
   render() {
     return (
       <div className="form-wrapper">
