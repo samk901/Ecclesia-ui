@@ -1,3 +1,5 @@
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable no-console */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
@@ -28,6 +30,17 @@ export default class CreateTodo extends React.Component {
 
   onChangeTodoNumber(e) {
     this.setState({ number: e.target.value });
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+
+    console.log('Todo successfully created!');
+    console.log(`Name: ${this.state.name}`);
+    console.log(`Email: ${this.state.email}`);
+    console.log(`Number: ${this.state.number}`);
+
+    this.setState({ name: '', email: '', number: '' });
   }
 
   render() {
