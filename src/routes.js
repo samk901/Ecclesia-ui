@@ -6,8 +6,8 @@ import NotFound from './NotFound.jsx';
 import ContactCalendar from './ContactCalendar.jsx';
 import Homepage from './Homepage.jsx';
 /* import CreateTodo from './todocomponents/create-todo.component.jsx';
-import EditTodo from './todocomponents/edit-todo.component.jsx';
-import TodoList from './todocomponents/todo-list.component.jsx'; */
+import EditTodo from './todocomponents/edit-todo.component.jsx'; */
+import TodoList from './todocomponents/todo-list.component.jsx';
 // eslint-disable-next-line import/no-named-as-default
 
 const routes = [
@@ -18,8 +18,8 @@ const routes = [
   { path: '/calendar', component: ContactCalendar },
   { path: '/homepage', component: Homepage },
   /*   { path: '/create-todo', component: CreateTodo },
-  { path: '/edit-todo/:id', component: EditTodo },
-  { path: '/todo-list', component: TodoList }, */
+  { path: '/edit-todo/:id', component: EditTodo }, */
+  { path: '/todo-list', component: TodoList },
   { path: '*', component: NotFound },
 ];
 

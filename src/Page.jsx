@@ -36,6 +36,9 @@ function NavBar({ user, onUserChange }) {
         <LinkContainer to="/calendar">
           <NavItem>Calendar</NavItem>
         </LinkContainer>
+        <LinkContainer to="/todo-list">
+          <NavItem>Todo List</NavItem>
+        </LinkContainer>
       </Nav>
       <Col sm={5}>
         <Navbar.Form>
