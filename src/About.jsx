@@ -26,7 +26,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div className="text-center">
-        <h3>Ecclesia version 0.01</h3>
+        <h3>Ecclesia version 1.0</h3>
       </div>
     );
   }
