@@ -2,6 +2,7 @@
 CRM Application modified for Churches and Non-Profits using the MERN Stack
 
 Source Code Links:
+** Please note that I could not migrate these to the ccs github without losing the commit history **
 API: https://github.com/samk901/Ecclesia-api
 UI: https://github.com/samk901/Ecclesia-ui
 
