@@ -3,6 +3,7 @@
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import axios from 'axios';
 
 export default class CreateTodo extends React.Component {
   constructor(props) {
@@ -35,10 +36,13 @@ export default class CreateTodo extends React.Component {
   onSubmit(e) {
     e.preventDefault();
 
-    console.log('Todo successfully created!');
-    console.log(`Name: ${this.state.name}`);
-    console.log(`Email: ${this.state.email}`);
-    console.log(`Number: ${this.state.number}`);
+    const todoObject = {
+      name: this.state.name,
+      email: this.state.email,
+      number: this.state.number,
+    };
+    axios.post('http://localhost:4000/todo/create-todo', todoObject)
+      .then(res => console.log(res.data));
 
     this.setState({ name: '', email: '', number: '' });
   }
