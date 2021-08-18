@@ -5,12 +5,30 @@
 /* eslint-disable react/no-unused-state */
 /* eslint-disable react/prefer-stateless-function */
 import React from 'react';
-import axios from 'axios';
+/* import axios from 'axios'; */
 import Table from 'react-bootstrap';
-import TodoTableRow from './TodoTableRow.jsx';
+/* import TodoTableRow from './TodoTableRow.jsx'; */
 
 
 export default class TodoList extends React.Component {
+  render() {
+    return (
+      <div className="table-wrapper">
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody />
+        </Table>
+      </div>
+    );
+  }
+
+  /*
   constructor(props) {
     super(props);
     this.state = {
@@ -55,4 +73,5 @@ export default class TodoList extends React.Component {
       </div>
     );
   }
+  */
 }
